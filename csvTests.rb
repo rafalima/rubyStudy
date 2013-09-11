@@ -7,8 +7,17 @@ csv.first.each_with_index do |item, index|
   hash[item.to_sym] = csv.last[index]
 end
 
-hash.each do |key, value|
-  p key
+p hash
 
+leandro = hash.inject([[], []]) do |result, elem|
+  [result[0] << elem[0], result[1] << elem[1]]
 end
 
+CSV.open("test.csv", "wb") do |csv|
+  leandro.each {|x| csv << x}
+end
+
+
+array.each do |x|
+  puts x
+end
