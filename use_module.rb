@@ -1,6 +1,6 @@
 require_relative 'module'
 
-Test::hello_world  #tb funcionaria Test.hello_world
+Test::hello_world  #tb funcionaria Test.hello_world. O ruby guide fala disso: https://github.com/bbatsov/ruby-style-guide#syntax
 Test::print("aqui") #tb funcionaria Test.print("aqui")
 
 Class_Test::hello_world  #tb funcionaria Test.hello_world
