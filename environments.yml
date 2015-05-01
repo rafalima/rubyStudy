@@ -1,0 +1,7 @@
+pessoa:
+  fisica:
+    nome: "rafael"
+    cpf: "000.000.000-00"
+  juridica:
+    nome: "Kombato ltda"
+    cpf: "111.111.111-11"
