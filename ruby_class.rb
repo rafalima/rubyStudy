@@ -14,7 +14,7 @@ class Pessoa
   end
 
   def full_name
-    binding.pry
+    binding.pry #usar next, continue ou step
     self.name + " " + self.last_name
     puts "full"
     array = [1,123,124,5]
@@ -34,6 +34,6 @@ class Pessoa
 end
 
 p = Pessoa.new("rafael","lima")
-# p.full_name
+p.full_name
 p.outro
 p.varios_args(1,23,4,"Rafael",{nome:"Rafael",idade:"32"},[222,333])

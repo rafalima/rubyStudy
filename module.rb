@@ -52,10 +52,10 @@ end
 
 
 # Os dois modulos abaixo possuem a mesma classe.
-# isso é possível pq nesse caso o module tá servindo de namespace
+# isso é possível pq nesse caso o module tá servindo de namespace e esse uso do módulo é muito comum
 module Modulo_Um
 
-  # é possível ter um módulo com método estático e ainda uma classe dentro. Sim, parece bizarro!
+  # é possível ter um módulo com método estático e ainda uma classe dentro. Sim, parece bizarro, mas já vi sendo usado varias vezes.
   def self.hello_world
     p "hello!"
   end
